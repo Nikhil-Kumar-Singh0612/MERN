@@ -1,0 +1,105 @@
+body{
+    border: 1px solid black;
+    width:1200px;
+}
+
+#navbar{
+    display: flex;
+    height: 25px;
+    width: 80%;
+    background: #FFFFFF;
+   margin-top: 0%;
+   margin-bottom: 2px;
+   margin-left: 3px;
+    justify-content: center;
+
+}
+#portfolio{
+    display: flex;
+    background: #F5F5F5;
+    margin-top: 10px;
+
+
+}
+#Part-1{
+
+
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    background: #FFFFFF;
+    height: 1000px;
+    width: 270px;
+    margin-top: 30px;
+}
+#Part-2{
+
+
+    flex-direction: column;
+
+
+}
+
+#photo{
+    height: 260px ;
+    width: 240px ;
+    border-radius: 50%;
+}
+#profile{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+#about{
+    margin-top: 100px;
+}
+#png{
+    height: 18px;
+    width: 18px;
+    margin: 10px;
+
+}
+#contactid{
+    display: flex;
+    flex-direction: row;
+}
+#contactid a{
+   margin: 10px;
+}
+#education{
+    height: 200px;
+    width: 800px;
+    background:#FFFFFF ;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#workexperience{
+    margin-top: 40px;
+    height: 100px;
+    width: 800px;
+    background:#FFFFFF ;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+#Academic{
+    margin-top: 40px;
+    height: 200px;
+    width: 800px;
+    background:#FFFFFF ;
+    padding: 10px;
+    margin-left: 40px;
+}
+#Achievements{
+    margin-top: 40px;
+    height: 180px;
+    width: 800px;
+    background:#FFFFFF ;
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+
+}
